@@ -1,0 +1,16 @@
+{
+  "name": "devop-testing",
+  "version": "1.0.0",
+  "description": "This project is only to test development and operations.",
+  "main": "index.js",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && npm start & cd client && npm start"
+  },
+  "author": "Nishant Kumar",
+  "license": "ISC"
+}
